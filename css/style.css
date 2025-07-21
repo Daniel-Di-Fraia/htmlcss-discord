@@ -123,36 +123,6 @@ a {
     width: 60%;
 }
 
-/* colors */
-/* .skyblue {
-    background-color: #1E90FF;
-} */
-
-/* .pink {
-    background-color: #FFC0CA;
-} */
-
-/* .green {
-    background-color: #218B21;
-
-} */
-
-/* .soft-red {
-    background-color: #F08180;
-} */
-
-/* .soft-green {
-    background-color: #20B3AA;
-} */
-
-/* .water-green {
-    background-color: #7FFFD4;
-} */
-
-.black {
-    background-color: #23272A;
-}
-
 /* fandom */
 .main-row-reverse {
     width: 60%;
@@ -207,6 +177,10 @@ a {
 /* sezione 2 footer */
 hr {
     color: white;
+}
+
+.black {
+    background-color: #23272A;
 }
 
 .end-footer {
