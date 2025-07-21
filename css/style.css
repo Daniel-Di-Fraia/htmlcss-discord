@@ -60,7 +60,7 @@ ul a {
 
 /* sezione download main */
 #download {
-    background-color: #00018B;
+    /* background-color: #00018B; */
     background-image: url('../img/jumbo.png');
     background-size: cover;
     padding: 121px;
@@ -218,6 +218,37 @@ p {
 #img4 {
     height: 725px;
 }
+
+.row-contact h4 {
+    line-height: 135px;
+    font-size: 30px;
+    text-align: center;
+    background-image: url(../img/stars.svg);
+    background-size: 1030px 55px;
+    background-repeat: no-repeat;
+    background-position: 76px 9px;
+    height: 100px;
+}
+
+/* pulsante avventura */
+.background-button-discord {
+    background-color: #8EA1E2;
+    color: white;
+    font-size: 22px;
+    margin: 0 auto;
+    height: 52px;
+    width: 20%;
+    border-radius: 26px 26px;
+    line-height: 52px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+
+
+
 /* sezione 1 footer */
 .black-bkg {
     background-color: #23272A;
