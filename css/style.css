@@ -15,11 +15,6 @@ body {
     border-radius: 20px 20px;
 }
 
-
-
-
-
-
 /* regole header */
 header {
     background-color: #255EE9;
@@ -142,38 +137,62 @@ ul a {
 }
 
 .main-row {
+    /* DEBUG */
+    /* background-color: #255EE9;
+    height: 440px; */
     width: 60%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 125px;
+    margin-bottom: 125px;
+    margin-left: 300px;
+    gap: 79px;
 }
 
-.dim2 {
+/* .dim2 {
     display: flex;
     justify-content: center;
     height: 440px;
     width: 100%;
     border: 1px solid black;
     background-color: #1E90FF;
-}
+} */
 
 .dim-obj-main {
     background-color: #FFC0CA;
     width: 60%;
 }
 
+h3 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 29px;
+}
+
+.img-pos {
+    margin-top: -80px;
+}
+
+
 /* fandom */
 .main-row-reverse {
+    background-color: #255EE9;
     width: 60%;
+    height: 440px;
     margin: 0 auto;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+
 
 /* tenersi in contatto */
 .dim3 {
