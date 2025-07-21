@@ -31,7 +31,7 @@ header {
     align-items: center;
 }
 
-ul {
+#navigazione {
     display: flex;
     /* flex-grow: 1; */
     align-items: center;
@@ -70,7 +70,7 @@ ul a {
     /* DEBUG */
     /* background-color: #EF82ED;
     height: 350px; */
-    width: 45%;
+    width: 50%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -227,7 +227,6 @@ p {
     background-size: 1030px 55px;
     background-repeat: no-repeat;
     background-position: 76px 9px;
-    height: 100px;
 }
 
 /* pulsante avventura */
@@ -244,11 +243,6 @@ p {
     margin-top: 30px;
 }
 
-
-
-
-
-
 /* sezione 1 footer */
 .black-bkg {
     background-color: #23272A;
@@ -256,54 +250,88 @@ p {
 }
 
 .footer-row {
-    width: 60%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.dim4 {
-    display: flex;
-    justify-content: center;
-    background-color: #20B3AA;
-    height: 535px;
-    width: 20%;
+    /* DEBUG */
+    /* background-color: #20B3AA;
     border: 1px solid white;
+    height: 535px; */
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 102px;
+    border-bottom: 1px solid #7181D7;
 }
 
-.dim-obj-footer {
+/* .dim-obj-footer {
     background-color: #F08180;
-    width: 30%;
+    width: 28%;
+} */
 
+.footer-row h4 {
+    color: #7181D7;
+    font-size: 33px;
 }
+
+#bandiera {
+    height: 18px;
+    margin-top: 30px;
+    border-radius: 3px 3px;
+}
+
+.social {
+    display: flex;
+    height: 24px;
+    margin-top: 20px;
+    gap: 30px;
+    
+}
+
+ul {
+    list-style-type: none;
+    line-height: 43px;
+    font-size: 20px;
+}
+
+li:first-child {
+    color: #7181D7;
+    font-weight: 600;
+}
+
+
 
 /* sezione 2 footer */
-hr {
-    color: white;
-}
-
 .black {
     background-color: #23272A;
 }
 
 .end-footer {
-    width: 60%;
-    height: 60px;
-    margin: 0 auto;
+    /* DEBUG */
+    /* background-color: #7FFFD4;
+    height: 60px; */
+    width: 70%;
+    margin: 0px auto;
+    margin-bottom: 60px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
-    background-color: #7FFFD4;
-
 }
 
-.dim5 {
-    width: 7%;
-    display: flex;
-    height: 25px;
+.pink {
     background-color: pink;
+}
+
+.background-purple {
+    background-color: #7181D7;
+    color: white;
+    border-radius: 20px 20px;
+    height: 43px;
+    width: 10%;
+    line-height: 44px;
+    font-size: 16px;
+}
+
+#logo-end {
+    height: 45px;
 }
