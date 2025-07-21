@@ -1,0 +1,230 @@
+/* generics */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/* regole header */
+header {
+    background-color: #ADD8E7;
+    padding: 20px;
+}
+
+.nav-main {
+    background-color: orange;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.oggetti {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 30px;
+    border: 1px solid black;
+}
+
+ul {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+    padding-left: 160px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#login {
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+}
+
+#logo {
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+}
+
+/* sezione download main */
+#download {
+    background-color: #00018B;
+    padding: 20px;
+}
+
+.download-section {
+    background-color: #EF82ED;
+    width: 45%;
+    height: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.dim1 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 30px;
+    border: 1px solid black;
+}
+
+
+/* main principale */
+
+
+/* place to talk */
+.white-bkg {
+    background-color: white;
+    padding: 20px;
+}
+
+.gray-bkg {
+    background-color: #D3D3D3;
+    padding: 20px;
+}
+
+.main-row {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dim2 {
+    display: flex;
+    justify-content: center;
+    height: 440px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #1E90FF;
+}
+
+.dim-obj-main {
+    background-color: #FFC0CA;
+    width: 60%;
+}
+
+/* colors */
+/* .skyblue {
+    background-color: #1E90FF;
+} */
+
+/* .pink {
+    background-color: #FFC0CA;
+} */
+
+/* .green {
+    background-color: #218B21;
+
+} */
+
+/* .soft-red {
+    background-color: #F08180;
+} */
+
+/* .soft-green {
+    background-color: #20B3AA;
+} */
+
+/* .water-green {
+    background-color: #7FFFD4;
+} */
+
+.black {
+    background-color: #23272A;
+}
+
+/* fandom */
+.main-row-reverse {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* tenersi in contatto */
+.dim3 {
+    display: flex;
+    justify-content: center;
+    height: 750px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #218B21;
+}
+
+/* sezione 1 footer */
+.black-bkg {
+    background-color: #23272A;
+    padding: 20px;
+}
+
+.footer-row {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.dim4 {
+    display: flex;
+    justify-content: center;
+    background-color: #20B3AA;
+    height: 535px;
+    width: 20%;
+    border: 1px solid white;
+}
+
+.dim-obj-footer {
+    background-color: #F08180;
+    width: 30%;
+
+}
+
+/* sezione 2 footer */
+hr {
+    color: white;
+}
+
+.end-footer {
+    width: 60%;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #7FFFD4;
+
+}
+
+.dim5 {
+    width: 7%;
+    display: flex;
+    height: 25px;
+    background-color: pink;
+}
