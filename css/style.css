@@ -64,6 +64,7 @@ ul a {
     background-image: url('../img/jumbo.png');
     background-size: cover;
     padding: 121px;
+    height: 628px;
 }
 
 .download-section {
@@ -262,6 +263,7 @@ p {
     justify-content: space-between;
     gap: 102px;
     border-bottom: 1px solid #7181D7;
+    height: 525px;
 }
 
 /* .dim-obj-footer {
